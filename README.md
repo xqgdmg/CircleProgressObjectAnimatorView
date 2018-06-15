@@ -12,8 +12,8 @@ private void animator2(CircleProgressObjectAnimatorView circleProgressObjectAnim
     Keyframe keyframe3 = Keyframe.ofFloat(1, 80);<br/>
     PropertyValuesHolder holder = PropertyValuesHolder.ofKeyframe("progress", keyframe1, keyframe2, keyframe3);<br/>
     ObjectAnimator animator = ObjectAnimator.ofPropertyValuesHolder(circleProgressObjectAnimatorView, holder);<br/>
-    animator.start();<br/><br/>
-}
+    animator.start();<br/>
+}<br/><br/>
 
 <!-- ![Image text](https://raw.githubusercontent.com/xqgdmg/CircleProgressObjectAnimatorView/master/img/Screenshot_20180615-110310.png) -->
-<img src="https://raw.githubusercontent.com/xqgdmg/CircleProgressObjectAnimatorView/master/img/Screenshot_20180615-110310.png" width="150" height="200" alt="图片描述文字"/>
+<img src="https://raw.githubusercontent.com/xqgdmg/CircleProgressObjectAnimatorView/master/img/Screenshot_20180615-110310.png" width="320" height="480" alt="图片描述文字"/>
