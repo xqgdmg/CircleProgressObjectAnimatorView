@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical"
     tools:context="dmg.xqg.com.myapplication.MainActivity">
 
@@ -17,9 +16,17 @@
         android:text="点击开始"/>
 
     <dmg.xqg.com.myapplication.CircleProgressObjectAnimatorView
-        android:id="@+id/circleProgressObjectAnimatorView"
+        android:id="@+id/circleProgressObjectAnimatorView01"
         android:background="#55ff0000"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <dmg.xqg.com.myapplication.CircleProgressObjectAnimatorView
+        android:id="@+id/circleProgressObjectAnimatorView02"
+        android:background="#550000ff"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>

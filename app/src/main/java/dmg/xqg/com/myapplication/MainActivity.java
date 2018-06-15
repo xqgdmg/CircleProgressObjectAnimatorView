@@ -15,14 +15,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final CircleProgressObjectAnimatorView circleProgressObjectAnimatorView = (CircleProgressObjectAnimatorView) findViewById(R.id.circleProgressObjectAnimatorView);
+        final CircleProgressObjectAnimatorView circleProgressObjectAnimatorView01 = (CircleProgressObjectAnimatorView) findViewById(R.id.circleProgressObjectAnimatorView01);
+        final CircleProgressObjectAnimatorView circleProgressObjectAnimatorView02 = (CircleProgressObjectAnimatorView) findViewById(R.id.circleProgressObjectAnimatorView02);
         final TextView textView = (TextView) findViewById(R.id.textView);
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                animator1(circleProgressObjectAnimatorView);
-                animator2(circleProgressObjectAnimatorView);
+                animator1(circleProgressObjectAnimatorView01);
+                animator2(circleProgressObjectAnimatorView02);
 
             }
         });
