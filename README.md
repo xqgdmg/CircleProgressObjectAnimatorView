@@ -15,5 +15,5 @@ private void animator2(CircleProgressObjectAnimatorView circleProgressObjectAnim
     animator.start();<br/><br/>
 }
 
-![Image text](https://raw.githubusercontent.com/xqgdmg/CircleProgressObjectAnimatorView/master/img/Screenshot_20180615-110310.png)
-
+<!-- ![Image text](https://raw.githubusercontent.com/xqgdmg/CircleProgressObjectAnimatorView/master/img/Screenshot_20180615-110310.png) -->
+<img src="https://raw.githubusercontent.com/xqgdmg/CircleProgressObjectAnimatorView/master/img/Screenshot_20180615-110310.png" width="150" height="200" alt="图片描述文字"/>
