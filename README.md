@@ -1,7 +1,6 @@
 # CircleProgressObjectAnimatorView
-自定义View绘制圆弧进度条，通过ObjectAnimator对自定义View的progress从0-65增加<br/><br/>
-新增PropertyValuesHolders.ofKeyframe() 把同一个属性拆分<br/><br/>
-新增PropertyValuesHolders.ofKeyframe() 把同一个属性拆分<br/><br/>
+1.自定义View绘制圆弧进度条，通过ObjectAnimator对自定义View的progress从0-65增加<br/><br/>
+2.使用PropertyValuesHolders.ofKeyframe() 把同一个属性拆分<br/><br/>
 
 private void animator2(CircleProgressObjectAnimatorView circleProgressObjectAnimatorView) {<br/>
     // 在 0% 处开始<br/>
